@@ -1,0 +1,98 @@
+* {
+    background-color: rgb(4, 10, 5);
+    text-align: center;
+}
+
+
+body{
+    height: 4000px;
+}
+
+.services{
+        background-color: rgb(106, 255, 20);
+        height: 400px;
+        bottom: 50px;
+        top: 50px
+}
+
+.text{
+    font-size: 300%;
+    color: rgb(255, 251, 251);
+}
+
+.stick_list1{
+    text-align: center;
+    font-size: 250%;
+    background-color: cyan;
+    color: blueviolet;
+    position: sticky;
+    top: 100px;
+    left: 50px;
+    padding: 5%; 
+    margin: 20%;
+
+}
+
+.stick_list2{
+    font-size: 250%;
+    text-align: center;
+    background-color: chartreuse;
+    color: blueviolet;
+    position: sticky;
+    top: 150px;
+    left: 104px;
+    padding: 5%;
+    margin: 20%;
+    
+}
+
+.stick_list3{
+    font-size: 250%;
+    text-align: center;
+    background-color: aqua;
+    color: blueviolet;
+    position: sticky;
+    top: 206px;
+    left: 50px;
+    padding: 5%;
+    margin: 20%;
+
+    
+}
+
+.stick_list4{
+    font-size: 250%;
+    text-align: center;
+    background-color: darkorange;
+    color: blueviolet;
+    position: sticky;
+    top: 258px;
+    left: 50px;
+    padding: 5%;
+    margin: 20%;
+}
+
+.stick_list5{
+    font-size: 250%;
+    text-align: center;
+    background-color: deeppink;
+    color: blueviolet;
+    position: sticky;
+    top: 310px;
+    left: 50px;
+    padding: 5%;
+    margin: 20%;
+}
+
+.stick_list6{
+    font-size: 250%;
+    text-align: center;
+    background-color: deepskyblue;
+    color: blueviolet;
+    position: sticky;
+    top: 362px;
+    left: 50px;
+    padding: 5%;
+    margin: 20%;
+    
+}
