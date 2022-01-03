@@ -3,12 +3,14 @@
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
+    
 }
 
 
 body{
     padding: 0;
     margin: 0 0;
+   
     
 }
 
@@ -31,58 +33,57 @@ img{
 }
 
 .stick_list1{
+    /* border: 3px solid red;  */
     text-align: center;
     font-size: 3rem;
     background-color: rgb(241, 240, 229);
     color: rgb(53, 22, 34);
-    position: sticky;
     top: 4%;
     padding: 3rem; 
-    margin: 10rem auto;
+    margin-top: 20px;
+    margin-left: 10%;
     width: 70%;
 
 }
 
 .stick_list2{
+    /* border: 3px solid red;  */
     font-size: 2.5rem;
+    text-align: center;
     background-color: rgb(199, 243, 156);
     color: rgb(18, 8, 27);
-    position: sticky;
-    top: 34%;
+  
+    top: 30%;
     padding: 3rem;
-    margin: 10rem auto;
+    margin: 20px auto;
     width: 35%;
     
 }
 
 .stick_list3{
     font-size: 2.5rem;
+    text-align: center;
     background-color: rgb(169, 238, 238);
     color: rgb(18, 9, 26);
-    position: sticky;
-    top: 45%;
    
-    padding: 3rem;
-    margin-left: 30%;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    top: 42%;
     width: 35%;
-
+    padding: 3rem;
+    margin-top: 20px;
+    margin-left: 30%;
+   
     
 }
 
 .stick_list4{
     font-size: 250%;
-    text-align: center;
-    background-color: darkorange;
-    color: blueviolet;
-    position: sticky;
-    top: 58%;
-  
-    padding: 3rem;
-    margin: 0 auto;
+    position:relative;
+    background-color: rgb(243, 175, 92);
+    color: rgb(84, 28, 136);
     width: 40%;
-    margin-bottom: 42%;
+    padding: 2.5rem;
+    margin-top: 20px;
+    margin-left: 25%;
 }
 
 .stick_list5{
@@ -90,12 +91,16 @@ img{
     text-align: center;
     background-color: rgb(240, 238, 214);
     color: blueviolet;
-    position: sticky;
+   
     width: 70%;
-    top: 99%;
+  
     padding: 5%;
-    margin: 5% auto;
+    margin: 20px auto;
 } 
+
+.stick_list5 img{
+    min-width: 400px;
+}
 
 /* .stick_list6{
     font-size: 250%;
@@ -110,28 +115,11 @@ img{
     
 } */
 
-@media screen and (min-width:600px){
-   
-    
-    img{
-        max-width: 700px;
-    }
-    
-    .stick_list4{
-        top:0;
-        margin: 0;
-        text-align: center;
-       
-       
-        position: sticky;
-        top: 58%;
-        left: 0;
-        padding: 3rem;
-        margin: 0 auto;
-        width: 40%;
-        margin-bottom: 200px;
-    }
+@media (max-width: 700px ) {
 
+    .stick_list5 img{
+        min-width: 250px;
 
+    }
     
 }
